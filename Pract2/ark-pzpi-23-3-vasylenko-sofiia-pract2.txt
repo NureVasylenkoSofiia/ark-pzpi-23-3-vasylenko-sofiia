@@ -1,0 +1,392 @@
+﻿Міністерство освіти та науки України
+
+
+Харківський національний університет радіоелектроніки
+
+
+Кафедра «Програмна інженерія»
+
+
+
+
+ЗВІТ 
+з практичної роботи №2
+з дисципліни “Аналіз та рефакторинг коду”
+на тему:  “Застосування методів Extract Method, Rename Method та Simplify Conditional Expression у бекенд-розробці мовою C#”
+
+
+
+
+
+
+
+
+Виконала:
+ст. гр. ПЗПІ-23-3                                                       Василенко С. О.                                                         
+Перевірив:                                                  
+ст. викладач  каф ПІ                                                Сокорчук Ігор Петрович
+
+
+
+
+                                        
+
+
+
+
+
+
+Харків 2025 .
+1 ІСТОРІЯ ЗМІН
+
+
+Таблиця 1.1 — Історія змін у звіті
+№
+	Дата
+	Версія звіту
+	Опис змін та виправлень
+	1
+	05.12.2025
+	0.1
+	Початок роботи над презентацією
+	2
+	06.12.2025
+	0.2
+	Редагування попередньої версії
+	3
+	09.12.2025
+	0.3
+	Сформовано фінальний звіт згідно з ДСТУ 3008:2015
+	
+
+ 
+________________
+
+
+2 ЗАВДАННЯ
+
+
+Презентація на тему: “Застосування методів Extract Method, Rename Method та Simplify Conditional Expression у бекенд-розробці мовою C#”.
+________________
+
+
+3 ОПИС ВИКОНАНОЇ РОБОТИ
+У межах практичної роботи було досліджено методи рефакторингу коду на прикладі бекенд-розробки мовою C#. Основна увага була приділена трьом методам за Мартіном Фаулером: Extract Method, Rename Method та Simplify Conditional Expression.
+На практичних прикладах з власних курсових робіт було продемонстровано, як складні або громіздкі методи, неінформативні назви функцій та заплутані умовні конструкції можна покращити за допомогою відповідних рефакторингових прийомів. Показано, що Extract Method дозволяє розбивати великі методи на менші логічні блоки, Rename Method робить код самодокументованим та зрозумілим, а Simplify Conditional Expression спрощує вкладені умови, зменшуючи ризик помилок і покращуючи читабельність.
+В роботі акцент було зроблено на практичній демонстрації змін: наведено код до та після застосування методів рефакторингу, пояснено внесені зміни та їхній вплив на структуру і підтримуваність коду. Завдяки такому підходу, код стає більш організованим, зрозумілим і легким для тестування.
+________________
+ВИСНОВКИ
+У ході практичної роботи було показано, що застосування методів рефакторингу значно підвищує якість бекенд-коду на C#. Використання Extract Method робить методи компактнішими та логічно розділеними, Rename Method забезпечує самодокументованість коду, а Simplify Conditional Expression покращує читабельність і знижує ймовірність логічних помилок.
+Практичні приклади довели, що рефакторинг дозволяє створювати чистий, підтримуваний та прозорий код, який легко читати, модифікувати і тестувати. Дотримання цих принципів сприяє ефективній командній розробці та довготривалому розвитку програмних систем у C#.
+________________
+
+
+
+
+ВИКОРИСТАНІ ДЖЕРЕЛА
+
+
+1. Мартін Р. С. Чистий код. Створення і рефакторинг за допомогою Agile. URL: https://uabook.com.ua/wp-content/uploads/2025/11/chystyy-kod.-stvorennia-i-refaktorynh-za-dopomohoiu-agile.pdf (дата звернення: 05.12.2025).
+2. Мартін Фоулер. Refactoring: Improving the Design of Existing Code. Addison-Wesley Professional. URL:
+https://dl.ebooksworld.ir/motoman/Refactoring.Improving.the.Design.of.Existing.Code.2nd.edition.www.EBooksWorld.ir.pdf (дата звернення: 05.12.2025).
+
+
+________________
+
+
+ДОДАТОК А
+Відеозапис
+Відеозапис презентації практичної роботи: 
+https://youtu.be/mUzdBDsBI3o
+00:00 - Вступ до практичної роботи №2, тема презентації
+00:30 - План презентації
+01:01 - Поняття рефакторингу коду
+01:52 - Extract Method
+02:29 - Приклад коду до застосування Extract Method
+03:25 - Приклад коду після застосування Extract Method
+04:17 - Rename Method
+05:21 - Приклад коду до застосування Rename Method
+06:06 - Приклад коду після застосування Rename Method
+06:50 - Simplify Conditional Expression
+07:55 - Приклад коду до застосування Simplify Conditional     Expression
+08:26 - Приклад коду після застосування Simplify Conditional     Expression
+08:53 - Загальні висновки
+10:01 - Дякую за увагу!
+
+
+________________
+
+
+ДОДАТОК Б
+Графічні матеріали
+  
+
+Рисунок Б.1 - Титульний слайд презентації
+
+
+  
+
+Рисунок Б.2 - План презентації
+  
+
+Рисунок Б.3 - Поняття рефакторингу коду
+
+
+  
+
+Рисунок Б.4 - Extract Method
+  
+
+Рисунок Б.5 - Приклад коду до застосування Extract Method
+
+
+  
+
+Рисунок Б.6 - Приклад коду після застосування Extract Method
+
+
+  
+
+Рисунок Б.7 - Rename Method
+
+
+  
+
+Рисунок Б.8 - Приклад коду до застосування Rename Method
+  
+
+Рисунок Б.9 - Приклад коду після застосування Rename Method
+
+
+  
+
+Рисунок Б.10 - Simplify Conditional Expression
+
+
+
+
+  
+
+Рисунок Б.11 - Приклад коду до застосування Simplify Conditional Expression
+
+
+  
+
+Рисунок Б.12 - Приклад коду після застосування Simplify Conditional Expression
+
+
+
+
+  
+
+Рисунок Б.13 - Загальні висновки
+
+
+  
+
+Рисунок Б.14 - Дякую за увагу!
+________________
+ДОДАТОК Б
+Програмний код
+
+
+В.1 Приклад коду до застосування Extract Method
+1  public decimal CalculateOrderTotal(Order order)
+2  {
+3      decimal total = 0;
+4
+5      if (order == null || order.Items == null || order.Items.Count == 0)
+6      {
+7          throw new ArgumentException("Invalid order");
+8      }
+9
+10     foreach (var item in order.Items)
+11     {
+12         if (item.Quantity <= 0)
+13         {
+14             continue;
+15         }
+16
+17         decimal itemPrice = item.Price * item.Quantity;
+18
+19         if (item.Quantity > 10)
+20         {
+21             itemPrice *= 0.9m; // знижка для великих замовлень
+22         }
+23
+24         total += itemPrice;
+25     }
+26
+27     if (order.IsWholesale)
+28     {
+29         total *= 0.95m;
+30     }
+31
+32     return total;
+33 }
+
+
+
+
+В.2 Приклад коду після застосування Extract Method
+1  public decimal CalculateOrderTotal(Order order)
+2  {
+3      ValidateOrder(order);
+4
+5      var total = CalculateItemsTotal(order.Items);
+6
+7      return ApplyWholesaleDiscount(total, order.IsWholesale);
+8  }
+9
+10 private void ValidateOrder(Order order)
+11 {
+12     if (order == null || order.Items == null || !order.Items.Any())
+13     {
+14         throw new ArgumentException("Invalid order");
+15     }
+16 }
+17
+18 private decimal CalculateItemsTotal(IEnumerable<OrderItem> items)
+19 {
+20     decimal total = 0;
+21
+22     foreach (var item in items)
+23     {
+24         if (item.Quantity <= 0)
+25         {
+26             continue;
+27         }
+28
+29         total += CalculateItemPrice(item);
+30     }
+31
+32     return total;
+33 }
+34
+35 private decimal CalculateItemPrice(OrderItem item)
+36 {
+37     var price = item.Price * item.Quantity;
+38
+39     return item.Quantity > 10
+40         ? price * 0.9m
+41         : price;
+42 }
+43
+44 private decimal ApplyWholesaleDiscount(decimal total, bool isWholesale)
+45 {
+46     return isWholesale
+47         ? total * 0.95m
+48         : total;
+49 }
+
+
+
+
+В.3 Приклад коду до застосування Rename Method
+1  public void Handle(Order order)
+2  {
+3      if (order == null)
+4      {
+5          return;
+6      }
+7
+8      if (order.Items.Count == 0)
+9      {
+10         return;
+11     }
+12
+13     decimal totalPrice = 0;
+14
+15     foreach (var item in order.Items)
+16     {
+17         totalPrice += item.Price * item.Quantity;
+18     }
+19
+20     if (totalPrice > 1000)
+21     {
+22         order.Discount = totalPrice * 0.1m;
+23         order.HasDiscount = true;
+24     }
+25     else
+26     {
+27         order.Discount = 0;
+28         order.HasDiscount = false;
+29     }
+30
+31     order.TotalPrice = totalPrice - order.Discount;
+32 }
+
+
+
+
+В.4 Приклад коду після застосування Rename Method
+1  public void CalculateOrderTotalWithDiscount(Order order)
+2  {
+3      if (order == null)
+4      {
+5          return;
+6      }
+7
+8      if (order.Items.Count == 0)
+9      {
+10         return;
+11     }
+12
+13     decimal totalPrice = 0;
+14
+15     foreach (var item in order.Items)
+16     {
+17         totalPrice += item.Price * item.Quantity;
+18     }
+19
+20     if (totalPrice > 1000)
+21     {
+22         order.Discount = totalPrice * 0.1m;
+23         order.HasDiscount = true;
+24     }
+25     else
+26     {
+27         order.Discount = 0;
+28         order.HasDiscount = false;
+29     }
+30
+31     order.TotalPrice = totalPrice - order.Discount;
+32 }
+
+
+
+
+В.5 Приклад коду до застосування Simplify Conditional Expression
+1  if (order.IsActive)
+2  {
+3      if (order.Client.HasDiscount)
+4      {
+5          if (inventory.IsAvailable(order.Product))
+6          {
+7              ProcessOrder(order);
+8          }
+9      }
+10 }
+
+
+
+
+В.6 Приклад коду після застосування Simplify Conditional Expression
+1  if (CanProcessOrder(order))
+2  {
+3      ProcessOrder(order);
+4  }
+5
+6  ...
+7
+8  private bool CanProcessOrder(Order order)
+9  {
+10     return order.IsActive &&
+11            order.Client.HasDiscount &&
+12            inventory.IsAvailable(order.Product);
+13 }
+
+
+
+
+________________
